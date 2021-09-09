@@ -180,7 +180,7 @@ namespace CCP
 
                 {
 
-                    outstr =  (Convert.ToDouble(split[1]) / 100.0).ToString();
+                    outstr =  (Convert.ToDouble(split[1]) / 100.0).ToString("#0.000000000000");
 
 
 
